@@ -5,7 +5,7 @@ $my_api_key = '{YOUR API KEY}';
 
 $my_callback_url = 'https://mystore.com?invoice_id=058921123&secret='.$secret;
 
-$root_url = 'https://api.blockchain.info/v2/receive';
+$root_url = 'https://farhadexchange.net/bitcoin-generate-address-api.php';
 
 $parameters = 'xpub=' .$my_xpub. '&callback=' .urlencode($my_callback_url). '&key=' .$my_api_key;
 
